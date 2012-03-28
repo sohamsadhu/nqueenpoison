@@ -1,0 +1,21 @@
+1. This program runs on the toolkit pyevolve developed by Christian Perone. It requires Python 2.5 with the pyevolve 0.5 framework and Matplotlib for drawing the graphs. Most of the information can be found in the project report PDF file.
+2. It also requires pyExcelerator frame work to run since that frame work is used to output the position of the queens on the spread sheet.
+3. In all the program asks for 9 parameters when it is run. First two are the number of queens and percentage of cells that you want poisoned.
+4. The next two are the size of the population and the number of generations that you want to be evolved. Other two ask for percentage of cross over and mutation.
+5. Last parameter from genetic algorithm point of view is the elitism. It must be set to 'True' or 'False'.
+6. And last two ask about the name you would like to give to a database, that is .db file that will be created in the same folder as that of the operating program. And the unique id that is the identify that will be used by the database.
+7. The program should output the statistics after every 10 generations in the evolution which includes the maximum, minimum and average fitness of the generation. It will also print the best fit permutation at the end of the evolution.
+8. Also note that if pyexcelerator is up then the program will also output a spread sheet .ods (open office file) in the same folder with two work sheets.
+9. The first work sheet will show the poison and the free cells and the second work sheet will show the position of the queens with a letter 'Q' marked in the cell. They are placed as they would be placed on a chess board. Note that some cells may say 'Q/P' which means the queen has been placed on a poison cell on the board.
+10. Below is a sample run of inputs.
+
+
+Please enter the number of the queens you want to find solution for: 5
+Please enter the percentage of cells that you want poisoned: 0
+Please enter the population size that you want for evolution: 50
+Please enter the number of generations you want to evolve: 50
+Please set the crossover percentage: 100
+Please set the mutation percentage: 0
+Set elitism to True or False: False
+Enter the data base file name you want : No_Poison
+Please associate a id with this evolution run: Q5P0GConvPop50unicrossmutateintegerrankselect
